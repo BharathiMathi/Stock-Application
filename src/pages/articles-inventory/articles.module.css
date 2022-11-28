@@ -1,0 +1,28 @@
+.articleContainer{
+    flex: 1;
+    margin: 20px;
+}
+.articleName{
+    text-transform: lowercase;
+}
+.articleName::first-letter{
+    text-transform: uppercase;
+}
+button{
+    font-weight: bold;
+    font-size: 29px;   
+}
+.rowWrapper{
+    vertical-align: middle;
+}
+.updateStock{
+    width: 35%;
+}
+.updateStock input{
+    width: 110px;
+    margin: 0 10px;
+}
+.updateStock button{
+   width: 100px;
+   
+}

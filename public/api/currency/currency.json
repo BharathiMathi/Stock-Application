@@ -1,0 +1,22 @@
+{
+  "currency": [
+    {
+      "currency_id": "1",
+      "symbol": ":-",
+      "country_code": "SE",
+      "country_name": "Sweden"
+    },
+    {
+      "currency_id": "2",
+      "symbol": "£",
+      "country_code": "GB",
+      "country_name": "United Kingdom"
+    },
+    {
+      "currency_id": "3",
+      "symbol": "$",
+      "country_code": "US",
+      "country_name": "United States"
+    }
+  ]
+}

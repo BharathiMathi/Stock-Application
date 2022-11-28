@@ -1,0 +1,7 @@
+.error_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  flex: 1;
+}

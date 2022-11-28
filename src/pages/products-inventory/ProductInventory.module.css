@@ -1,0 +1,11 @@
+.productContainer{
+    flex: 1;
+    margin: 20px;
+}
+.productName::first-letter{
+    text-transform:uppercase;
+}
+.productImage{
+    height: 75px !important;
+}
+

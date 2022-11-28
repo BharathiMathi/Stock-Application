@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+## Down load the project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In the commond prompt do git clone 'Repository URL'
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Description
 
-### `npm test`
+This Stock Application is an open source inventory software which can be used for Small and Mid sized business.
+This application can be accessd through web browsers and It shows the list of products, list of articles stock and list of products stock.This application provided a feasibility to upload Producs/Articles information from Excel sheet.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Bascis Features
 
-### `npm run build`
+1)Product inventory details can be uploaded from Excel
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2)Article inventory details can be uploaded from Excel/Quantity can be updated through application
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3)Have features to seel the product
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4)Shows "Out of stock" product information
 
-### `npm run eject`
+### Before move to production
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Product URI and Article URI are hard coded. That needs to be removed.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Middleware and DB connection needs to be implemented accordingly.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Improvements
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Need to implement pagination as Products and Articles grows, it will lead the performance issue.
 
-## Learn More
+Filter options need to implement which will narrow down the results and user can get the exact information.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Currency should be picked based the country.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Show the list of avilable products based on the inventory stock.

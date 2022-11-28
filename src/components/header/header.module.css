@@ -1,0 +1,11 @@
+.headerWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    position: sticky;
+    background-color: #4c98e3;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}

@@ -1,0 +1,9 @@
+.articleWrapper{
+    display: flex;
+}
+.articleQtyWidth{
+    padding: 0 10px 0 0;
+}
+.articleName{
+    margin-left: 10px;
+}

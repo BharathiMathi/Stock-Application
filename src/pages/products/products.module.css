@@ -1,0 +1,43 @@
+.productsContainer{
+    flex: 1;
+    margin: 20px;
+}
+.articleQtyWidth{
+    padding: 0 10px 0 0;
+}
+.articleNameWidth{
+    margin-left: 10px;
+}
+.articleNameWidth::first-letter{
+    text-transform: uppercase;
+}
+.actionWrapper{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+.inputGroup{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.actionWrapper input{
+    width: 60% !important;
+    margin-left: 10px;
+}
+.actionWrapper button{
+    min-width: 100px;
+    margin-left: 10px;
+}
+.list_group {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.warningText{
+    margin-left: 10px;
+    text-align: right;
+}
